@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap nettisivu</title>
+    <!-- Add Bootstrap 5 CSS (link may need to be updated) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add your custom CSS if needed -->
+    <link rel="stylesheet" href="custom.css">
+    <style>
+        /* Custom CSS for the sticky footer */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Savelin Nettisivu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="etusivu.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="arvionti.html">Arviointi</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tutkinnon
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <a class="dropdown-item" href="tutki_osat.html">Osat</a>
+                            <a class="dropdown-item" href="tutki_rakenne.html">Rakenne</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kriteerit.html">Kriteerit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Arvionti</h1>
+    
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <main class="container my-5">
+        <h2>Tutkinnon muodostuminen</h2>
+        <p>Ammatilliset tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten ja arviointikriteerien mukaisesti. Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan arvosana määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena parhaiten sijoittuu.</p>
+        <p>Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi valmentautuminen, yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien mukaisesti. Arvosanat 2 ja 4 määräytyvät seuraavasti:</p>
+        <p>2 = Opiskelijan osaamisen taso ylittää selkeästi 1-tason, mutta ei yllä 3-tasolle.</p>
+        <p>4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle. </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Savelin Nettisivu</p>
+        </div>
+    </footer>
+
+    <!-- Add Bootstrap 5 JS and Popper.js (links may need to be updated) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+</body>
+</html>
